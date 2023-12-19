@@ -41,7 +41,6 @@ def test_pop_with_empty_stack():
     with pytest.raises(IndexError):
         stack.pop()
 
-    print("Test for .pop() passed")
 
 
 
